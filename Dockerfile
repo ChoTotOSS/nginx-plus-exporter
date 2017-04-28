@@ -1,7 +1,6 @@
 FROM        alpine:3.5
 WORKDIR /bin
-COPY dist/exporter /bin/
-COPY docker-entrypoint.sh /bin/
-RUN chmod +x /bin/exporter
+COPY dist/nginx-plus-exporter /bin/
+RUN chmod +x /bin/nginx-plus-exporter
 
-ENTRYPOINT ["./exporter"]
+ENTRYPOINT ["./nginx-plus-exporter"]
