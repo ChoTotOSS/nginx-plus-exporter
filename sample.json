@@ -1,0 +1,5064 @@
+{
+  "version": 7,
+  "nginx_version": "1.11.5",
+  "address": "10.50.1.95",
+  "generation": 41,
+  "load_timestamp": 1493194695275,
+  "timestamp": 1493349011913,
+  "pid": 2312,
+  "processes": {
+    "respawned": 0
+  },
+  "connections": {
+    "accepted": 1448571884,
+    "dropped": 0,
+    "active": 2089,
+    "idle": 49493
+  },
+  "ssl": {
+    "handshakes": 156397485,
+    "handshakes_failed": 882052,
+    "session_reuses": 73085136
+  },
+  "requests": {
+    "total": 5914206471,
+    "current": 1788
+  },
+  "server_zones": {
+    "gateway-chotot-com": {
+      "processing": 0,
+      "requests": 16834,
+      "responses": {
+        "1xx": 0,
+        "2xx": 16762,
+        "3xx": 0,
+        "4xx": 72,
+        "5xx": 0,
+        "total": 16834
+      },
+      "discarded": 0,
+      "received": 2770282,
+      "sent": 10972113
+    },
+    "accounts-chotot-com": {
+      "processing": 2,
+      "requests": 601508,
+      "responses": {
+        "1xx": 0,
+        "2xx": 395258,
+        "3xx": 179964,
+        "4xx": 22635,
+        "5xx": 165,
+        "total": 598022
+      },
+      "discarded": 3484,
+      "received": 1161813327,
+      "sent": 12325924667
+    },
+    "api-chotot-com": {
+      "processing": 0,
+      "requests": 3183839,
+      "responses": {
+        "1xx": 0,
+        "2xx": 3149816,
+        "3xx": 0,
+        "4xx": 0,
+        "5xx": 33373,
+        "total": 3183189
+      },
+      "discarded": 650,
+      "received": 554455862,
+      "sent": 17918885012
+    },
+    "capi-chotot-com": {
+      "processing": 0,
+      "requests": 0,
+      "responses": {
+        "1xx": 0,
+        "2xx": 0,
+        "3xx": 0,
+        "4xx": 0,
+        "5xx": 0,
+        "total": 0
+      },
+      "discarded": 0,
+      "received": 0,
+      "sent": 0
+    },
+    "chat-chotot-com": {
+      "processing": 0,
+      "requests": 4036,
+      "responses": {
+        "1xx": 0,
+        "2xx": 1141,
+        "3xx": 2821,
+        "4xx": 1,
+        "5xx": 0,
+        "total": 3963
+      },
+      "discarded": 73,
+      "received": 2634634,
+      "sent": 6266525
+    },
+    "ssl-gateway-chotot-com": {
+      "processing": 64,
+      "requests": 165711051,
+      "responses": {
+        "1xx": 0,
+        "2xx": 156793892,
+        "3xx": 2461665,
+        "4xx": 5658202,
+        "5xx": 702300,
+        "total": 165616059
+      },
+      "discarded": 94928,
+      "received": 266106198687,
+      "sent": 233783207440
+    },
+    "static-chotot-com-vn": {
+      "processing": 83,
+      "requests": 403802896,
+      "responses": {
+        "1xx": 0,
+        "2xx": 388040826,
+        "3xx": 15040922,
+        "4xx": 522961,
+        "5xx": 4,
+        "total": 403604713
+      },
+      "discarded": 198100,
+      "received": 141028156026,
+      "sent": 5067222453377
+    },
+    "ssl-test-search-chotot-com": {
+      "processing": 0,
+      "requests": 0,
+      "responses": {
+        "1xx": 0,
+        "2xx": 0,
+        "3xx": 0,
+        "4xx": 0,
+        "5xx": 0,
+        "total": 0
+      },
+      "discarded": 0,
+      "received": 0,
+      "sent": 0
+    },
+    "ssl-way-chotot-com": {
+      "processing": 0,
+      "requests": 0,
+      "responses": {
+        "1xx": 0,
+        "2xx": 0,
+        "3xx": 0,
+        "4xx": 0,
+        "5xx": 0,
+        "total": 0
+      },
+      "discarded": 0,
+      "received": 0,
+      "sent": 0
+    },
+    "www-chotot-com": {
+      "processing": 25,
+      "requests": 14511559,
+      "responses": {
+        "1xx": 0,
+        "2xx": 9797333,
+        "3xx": 4124842,
+        "4xx": 455387,
+        "5xx": 116712,
+        "total": 14494274
+      },
+      "discarded": 17260,
+      "received": 21400819324,
+      "sent": 615434440796
+    },
+    "www2-chotot-com": {
+      "processing": 0,
+      "requests": 14140,
+      "responses": {
+        "1xx": 0,
+        "2xx": 1598,
+        "3xx": 8603,
+        "4xx": 3862,
+        "5xx": 0,
+        "total": 14063
+      },
+      "discarded": 77,
+      "received": 9064319,
+      "sent": 22735118
+    },
+    "www4-chotot-com": {
+      "processing": 1,
+      "requests": 517030,
+      "responses": {
+        "1xx": 0,
+        "2xx": 355125,
+        "3xx": 139848,
+        "4xx": 8207,
+        "5xx": 212,
+        "total": 503392
+      },
+      "discarded": 13637,
+      "received": 1220778538,
+      "sent": 5342801753
+    },
+    "ssl-xe-chotot-com": {
+      "processing": 9,
+      "requests": 5139279,
+      "responses": {
+        "1xx": 0,
+        "2xx": 3482079,
+        "3xx": 1650544,
+        "4xx": 277,
+        "5xx": 213,
+        "total": 5133113
+      },
+      "discarded": 6157,
+      "received": 8628200632,
+      "sent": 235710306160
+    }
+  },
+  "upstreams": {
+    "365-chotot-com": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.157:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 266081,
+          "responses": {
+            "1xx": 0,
+            "2xx": 246984,
+            "3xx": 4692,
+            "4xx": 61,
+            "5xx": 5,
+            "total": 251742
+          },
+          "sent": 562265216,
+          "received": 5080354404,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30831,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "admin-centre": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.120:5001",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 3,
+          "requests": 23185,
+          "responses": {
+            "1xx": 0,
+            "2xx": 22386,
+            "3xx": 477,
+            "4xx": 191,
+            "5xx": 0,
+            "total": 23054
+          },
+          "sent": 64840479,
+          "received": 43077624,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30687,
+            "fails": 147,
+            "unhealthy": 6,
+            "last_passed": true
+          },
+          "downtime": 1285742,
+          "downstart": 0,
+          "selected": 1493349009000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "apidashboard-chotot-com": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.14:5000",
+          "backup": false,
+          "weight": 1,
+          "state": "unhealthy",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30850,
+            "fails": 30850,
+            "unhealthy": 1,
+            "last_passed": false
+          },
+          "downtime": 154316447,
+          "downstart": 1493194695466,
+          "selected": 0
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "careers-chotot-com": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.157:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 9707,
+          "responses": {
+            "1xx": 0,
+            "2xx": 6669,
+            "3xx": 225,
+            "4xx": 362,
+            "5xx": 21,
+            "total": 7277
+          },
+          "sent": 12410374,
+          "received": 659057704,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 29149,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493348955000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "chuongtrinh-chotot-com": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.157:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 7788,
+          "responses": {
+            "1xx": 0,
+            "2xx": 7367,
+            "3xx": 117,
+            "4xx": 97,
+            "5xx": 0,
+            "total": 7581
+          },
+          "sent": 4557155,
+          "received": 429823536,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30831,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493348871000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "dangtinraovat-chotot": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.18:7749",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 335854,
+          "responses": {
+            "1xx": 0,
+            "2xx": 256732,
+            "3xx": 78707,
+            "4xx": 239,
+            "5xx": 0,
+            "total": 335678
+          },
+          "sent": 490597169,
+          "received": 5872530021,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30821,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349000000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "feeds-chotot": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.5:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 28,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 28,
+            "5xx": 0,
+            "total": 28
+          },
+          "sent": 9912,
+          "received": 11452,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30689,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493344716000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "gateway-chotot-com": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.98:8080",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 8418,
+          "responses": {
+            "1xx": 0,
+            "2xx": 8358,
+            "3xx": 0,
+            "4xx": 37,
+            "5xx": 0,
+            "total": 8395
+          },
+          "sent": 2009185,
+          "received": 5244574,
+          "fails": 23,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493348995000
+        },
+        {
+          "id": 1,
+          "server": "10.50.10.228:8080",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 8440,
+          "responses": {
+            "1xx": 0,
+            "2xx": 8404,
+            "3xx": 0,
+            "4xx": 35,
+            "5xx": 0,
+            "total": 8439
+          },
+          "sent": 2020619,
+          "received": 5320698,
+          "fails": 1,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349010000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "imaginary-chotot-com": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.157:8069",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 20,
+          "responses": {
+            "1xx": 0,
+            "2xx": 20,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 20
+          },
+          "sent": 9438223,
+          "received": 6849,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 76963,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493290722000
+        },
+        {
+          "id": 1,
+          "server": "10.50.10.158:8069",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 20,
+          "responses": {
+            "1xx": 0,
+            "2xx": 19,
+            "3xx": 0,
+            "4xx": 1,
+            "5xx": 0,
+            "total": 20
+          },
+          "sent": 7703412,
+          "received": 6696,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 76978,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493297731000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "muabanraovat-chotot": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.18:8849",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 22247,
+          "responses": {
+            "1xx": 0,
+            "2xx": 18191,
+            "3xx": 4028,
+            "4xx": 14,
+            "5xx": 0,
+            "total": 22233
+          },
+          "sent": 36987919,
+          "received": 414994994,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30820,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493348604000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "npsapi-chotot": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.19:8000",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30830,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "ssl_accounts_com": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.31:8080",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 1,
+          "requests": 301331,
+          "responses": {
+            "1xx": 0,
+            "2xx": 197684,
+            "3xx": 89950,
+            "4xx": 11229,
+            "5xx": 7,
+            "total": 298870
+          },
+          "sent": 597509820,
+          "received": 6143606756,
+          "fails": 684,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30789,
+            "fails": 2,
+            "unhealthy": 2,
+            "last_passed": true
+          },
+          "downtime": 10032,
+          "downstart": 0,
+          "selected": 1493349011000
+        },
+        {
+          "id": 1,
+          "server": "10.50.10.32:8080",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 1,
+          "requests": 301374,
+          "responses": {
+            "1xx": 0,
+            "2xx": 197690,
+            "3xx": 90060,
+            "4xx": 11406,
+            "5xx": 8,
+            "total": 299164
+          },
+          "sent": 597786303,
+          "received": 6141628109,
+          "fails": 664,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30804,
+            "fails": 2,
+            "unhealthy": 2,
+            "last_passed": true
+          },
+          "downtime": 10125,
+          "downstart": 0,
+          "selected": 1493349011000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "api-chotot-com": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.133:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 1581313,
+          "responses": {
+            "1xx": 0,
+            "2xx": 1570577,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 10411,
+            "total": 1580988
+          },
+          "sent": 359976222,
+          "received": 30316772604,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30830,
+            "fails": 1,
+            "unhealthy": 1,
+            "last_passed": true
+          },
+          "downtime": 5014,
+          "downstart": 0,
+          "selected": 1493349011000
+        },
+        {
+          "id": 1,
+          "server": "10.50.1.132:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 1602526,
+          "responses": {
+            "1xx": 0,
+            "2xx": 1579242,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 22962,
+            "total": 1602204
+          },
+          "sent": 364567936,
+          "received": 30500958310,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30829,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "pusher2-chotot-com": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.169:8080",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "sms-chotot-com": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.138:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "qccontent-chotot-com": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.161:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        },
+        {
+          "id": 1,
+          "server": "10.50.1.162:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "qc-chotot-com": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.162:7749",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "notifier-chotot-com": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.170:3000",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        },
+        {
+          "id": 1,
+          "server": "10.50.1.171:3000",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "capi-chotot-com": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.213:5003",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30828,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        },
+        {
+          "id": 1,
+          "server": "10.50.10.213:5004",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30828,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        },
+        {
+          "id": 2,
+          "server": "10.50.10.213:5005",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30829,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        },
+        {
+          "id": 3,
+          "server": "10.50.10.213:5006",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30829,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        },
+        {
+          "id": 4,
+          "server": "10.50.10.214:5003",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30827,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        },
+        {
+          "id": 5,
+          "server": "10.50.10.214:5004",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30828,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        },
+        {
+          "id": 6,
+          "server": "10.50.10.214:5005",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30827,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        },
+        {
+          "id": 7,
+          "server": "10.50.10.214:5006",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30828,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "chat-chotot-com": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.41:8080",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 2017,
+          "responses": {
+            "1xx": 0,
+            "2xx": 555,
+            "3xx": 1417,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 1972
+          },
+          "sent": 1440114,
+          "received": 3002722,
+          "fails": 1,
+          "unavail": 1,
+          "health_checks": {
+            "checks": 30627,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 157741,
+          "downstart": 0,
+          "selected": 1493348849000
+        },
+        {
+          "id": 1,
+          "server": "10.50.1.43:8080",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 2019,
+          "responses": {
+            "1xx": 0,
+            "2xx": 586,
+            "3xx": 1404,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 1990
+          },
+          "sent": 1431098,
+          "received": 3194182,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30738,
+            "fails": 1,
+            "unhealthy": 1,
+            "last_passed": true
+          },
+          "downtime": 5006,
+          "downstart": 0,
+          "selected": 1493348804000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "chatadmin-chotot": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.213:5002",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30824,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        },
+        {
+          "id": 1,
+          "server": "10.50.10.214:5002",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30823,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "consul-chotot-com": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.17:8500",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 29,
+          "responses": {
+            "1xx": 0,
+            "2xx": 28,
+            "3xx": 1,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 29
+          },
+          "sent": 64982,
+          "received": 1112808,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30842,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493348716000
+        },
+        {
+          "id": 1,
+          "server": "10.50.10.18:8500",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 29,
+          "responses": {
+            "1xx": 0,
+            "2xx": 29,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 29
+          },
+          "sent": 65101,
+          "received": 1327343,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30840,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493348719000
+        },
+        {
+          "id": 2,
+          "server": "10.50.10.19:8500",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 28,
+          "responses": {
+            "1xx": 0,
+            "2xx": 27,
+            "3xx": 1,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 28
+          },
+          "sent": 62919,
+          "received": 540431,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30841,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493348716000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "ssl_dashboard_com": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.16:8080",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "dupcheck": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.121:7070",
+          "backup": false,
+          "weight": 1,
+          "state": "unhealthy",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30850,
+            "fails": 30850,
+            "unhealthy": 1,
+            "last_passed": false
+          },
+          "downtime": 154316447,
+          "downstart": 1493194695466,
+          "selected": 0
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "ssl-feeds-chotot": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.79:8080",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 17,
+          "responses": {
+            "1xx": 0,
+            "2xx": 17,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 17
+          },
+          "sent": 18673,
+          "received": 13634567,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30800,
+            "fails": 64,
+            "unhealthy": 4,
+            "last_passed": true
+          },
+          "downtime": 320613,
+          "downstart": 0,
+          "selected": 1493348217000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "ssl-gateway-chotot-com": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.98:8080",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 20,
+          "requests": 82862600,
+          "responses": {
+            "1xx": 0,
+            "2xx": 78270783,
+            "3xx": 1228699,
+            "4xx": 2829632,
+            "5xx": 372684,
+            "total": 82701798
+          },
+          "sent": 135929200698,
+          "received": 286959947471,
+          "fails": 111279,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        },
+        {
+          "id": 1,
+          "server": "10.50.10.228:8080",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 25,
+          "requests": 82963493,
+          "responses": {
+            "1xx": 0,
+            "2xx": 78523155,
+            "3xx": 1232967,
+            "4xx": 2827480,
+            "5xx": 325564,
+            "total": 82909166
+          },
+          "sent": 135327066580,
+          "received": 287769290420,
+          "fails": 14376,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "ssl_msite_com": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.10:8001",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 462,
+          "responses": {
+            "1xx": 0,
+            "2xx": 13,
+            "3xx": 374,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 387
+          },
+          "sent": 632497,
+          "received": 4278413,
+          "fails": 74,
+          "unavail": 65,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 46943647,
+          "downstart": 0,
+          "selected": 1493348904000
+        },
+        {
+          "id": 1,
+          "server": "10.50.1.17:8001",
+          "backup": false,
+          "weight": 1,
+          "state": "unavail",
+          "active": 0,
+          "requests": 249,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 232,
+          "unavail": 18,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 149555595,
+          "downstart": 1493316368203,
+          "selected": 1493348504000
+        },
+        {
+          "id": 2,
+          "server": "10.50.1.39:8001",
+          "backup": false,
+          "weight": 1,
+          "state": "unavail",
+          "active": 0,
+          "requests": 489,
+          "responses": {
+            "1xx": 0,
+            "2xx": 11,
+            "3xx": 424,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 435
+          },
+          "sent": 659334,
+          "received": 4740218,
+          "fails": 52,
+          "unavail": 48,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 32730223,
+          "downstart": 1493348504941,
+          "selected": 1493348504000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "ssl-nha": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.90:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 2,
+          "requests": 671836,
+          "responses": {
+            "1xx": 0,
+            "2xx": 531002,
+            "3xx": 140031,
+            "4xx": 1,
+            "5xx": 0,
+            "total": 671034
+          },
+          "sent": 1105248314,
+          "received": 53162453268,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        },
+        {
+          "id": 1,
+          "server": "10.50.10.91:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 1,
+          "requests": 671835,
+          "responses": {
+            "1xx": 0,
+            "2xx": 530874,
+            "3xx": 140135,
+            "4xx": 0,
+            "5xx": 1,
+            "total": 671010
+          },
+          "sent": 1105091344,
+          "received": 53007352354,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "ssl-nha-bot": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.92:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 161249,
+          "responses": {
+            "1xx": 0,
+            "2xx": 159653,
+            "3xx": 489,
+            "4xx": 1105,
+            "5xx": 2,
+            "total": 161249
+          },
+          "sent": 54971252,
+          "received": 21335728812,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        },
+        {
+          "id": 1,
+          "server": "10.50.10.93:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 161221,
+          "responses": {
+            "1xx": 0,
+            "2xx": 159669,
+            "3xx": 512,
+            "4xx": 1036,
+            "5xx": 3,
+            "total": 161220
+          },
+          "sent": 54880344,
+          "received": 21252752357,
+          "fails": 1,
+          "unavail": 1,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 11370,
+          "downstart": 0,
+          "selected": 1493349011000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "ssl-nha-api": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.90:7001",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 446336,
+          "responses": {
+            "1xx": 0,
+            "2xx": 97955,
+            "3xx": 348219,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 446174
+          },
+          "sent": 914995496,
+          "received": 380582780,
+          "fails": 9,
+          "unavail": 9,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 97463,
+          "downstart": 0,
+          "selected": 1493349011000
+        },
+        {
+          "id": 1,
+          "server": "10.50.10.91:7001",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 447286,
+          "responses": {
+            "1xx": 0,
+            "2xx": 97984,
+            "3xx": 349154,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 447138
+          },
+          "sent": 916762981,
+          "received": 380811529,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "nps-chotot-com": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.8:6969",
+          "backup": false,
+          "weight": 1,
+          "state": "unhealthy",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30851,
+            "fails": 30851,
+            "unhealthy": 1,
+            "last_passed": false
+          },
+          "downtime": 154316450,
+          "downstart": 1493194695463,
+          "selected": 0
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "pay-chotot-com": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.15:8700",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 20202,
+          "responses": {
+            "1xx": 0,
+            "2xx": 19950,
+            "3xx": 173,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 20123
+          },
+          "sent": 49972102,
+          "received": 238955401,
+          "fails": 1,
+          "unavail": 1,
+          "health_checks": {
+            "checks": 30814,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 36662,
+          "downstart": 0,
+          "selected": 1493349008000
+        },
+        {
+          "id": 1,
+          "server": "10.50.10.16:8700",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 20207,
+          "responses": {
+            "1xx": 0,
+            "2xx": 19961,
+            "3xx": 173,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 20134
+          },
+          "sent": 49960854,
+          "received": 239061538,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30825,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349007000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "pgate-chotot-com": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.138:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 2,
+          "requests": 5239,
+          "responses": {
+            "1xx": 0,
+            "2xx": 5157,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 2,
+            "total": 5159
+          },
+          "sent": 2182188,
+          "received": 1212541,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349010000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "sslvarnish": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.251:6081",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 39,
+          "requests": 202821271,
+          "responses": {
+            "1xx": 0,
+            "2xx": 195024889,
+            "3xx": 7523932,
+            "4xx": 213879,
+            "5xx": 2,
+            "total": 202762702
+          },
+          "sent": 81598099614,
+          "received": 2495714460692,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30835,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        },
+        {
+          "id": 1,
+          "server": "10.50.1.252:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 43,
+          "requests": 200898908,
+          "responses": {
+            "1xx": 0,
+            "2xx": 193056078,
+            "3xx": 7517786,
+            "4xx": 227013,
+            "5xx": 2,
+            "total": 200800879
+          },
+          "sent": 80955851107,
+          "received": 2568925301181,
+          "fails": 2,
+          "unavail": 2,
+          "health_checks": {
+            "checks": 30839,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 20727,
+          "downstart": 0,
+          "selected": 1493349011000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "ssl-test-search-chotot-com": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.128:9099",
+          "backup": false,
+          "weight": 1,
+          "state": "unhealthy",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30850,
+            "fails": 30850,
+            "unhealthy": 1,
+            "last_passed": false
+          },
+          "downtime": 154316450,
+          "downstart": 1493194695463,
+          "selected": 0
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "ssl_upm": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.63:8080",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 103,
+          "responses": {
+            "1xx": 0,
+            "2xx": 68,
+            "3xx": 29,
+            "4xx": 5,
+            "5xx": 0,
+            "total": 102
+          },
+          "sent": 157123,
+          "received": 536281,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30757,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493289007000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "ssl-varus-chotot-com": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.99:3000",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 530,
+          "responses": {
+            "1xx": 0,
+            "2xx": 469,
+            "3xx": 30,
+            "4xx": 31,
+            "5xx": 0,
+            "total": 530
+          },
+          "sent": 1246950,
+          "received": 39777097,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30838,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493348998000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "ssl-varus2-chotot-com": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.229:3000",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 353,
+          "responses": {
+            "1xx": 0,
+            "2xx": 308,
+            "3xx": 24,
+            "4xx": 21,
+            "5xx": 0,
+            "total": 353
+          },
+          "sent": 866772,
+          "received": 27945489,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30829,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493348764000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "ssl-way-chotot-com": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.98:8080",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "sslvmfrontend-com": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.10:443",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 329,
+          "responses": {
+            "1xx": 0,
+            "2xx": 323,
+            "3xx": 1,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 324
+          },
+          "sent": 137027,
+          "received": 234107989,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 61219,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493348427000
+        },
+        {
+          "id": 1,
+          "server": "10.50.1.17:443",
+          "backup": false,
+          "weight": 1,
+          "state": "unhealthy",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 38614,
+            "fails": 38614,
+            "unhealthy": 1,
+            "last_passed": false
+          },
+          "downtime": 154315091,
+          "downstart": 1493194696822,
+          "selected": 0
+        },
+        {
+          "id": 2,
+          "server": "10.50.1.39:443",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 328,
+          "responses": {
+            "1xx": 0,
+            "2xx": 324,
+            "3xx": 1,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 325
+          },
+          "sent": 138411,
+          "received": 233891854,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 61218,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493348205000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "chotot-com-oneweb": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.82:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 10,
+          "requests": 5960923,
+          "responses": {
+            "1xx": 0,
+            "2xx": 4136202,
+            "3xx": 1816287,
+            "4xx": 170,
+            "5xx": 475,
+            "total": 5953134
+          },
+          "sent": 10069763750,
+          "received": 272793616308,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        },
+        {
+          "id": 1,
+          "server": "10.50.10.83:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 9,
+          "requests": 5960923,
+          "responses": {
+            "1xx": 0,
+            "2xx": 4134954,
+            "3xx": 1817217,
+            "4xx": 203,
+            "5xx": 632,
+            "total": 5953006
+          },
+          "sent": 10073501454,
+          "received": 273084431410,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "chotot-com-oneweb-bot": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.80:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 2,
+          "requests": 836619,
+          "responses": {
+            "1xx": 0,
+            "2xx": 444345,
+            "3xx": 108528,
+            "4xx": 225400,
+            "5xx": 58268,
+            "total": 836541
+          },
+          "sent": 275434342,
+          "received": 12923789556,
+          "fails": 31,
+          "unavail": 20,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 276759,
+          "downstart": 0,
+          "selected": 1493349011000
+        },
+        {
+          "id": 1,
+          "server": "10.50.10.81:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 1,
+          "requests": 837269,
+          "responses": {
+            "1xx": 0,
+            "2xx": 446119,
+            "3xx": 108561,
+            "4xx": 225318,
+            "5xx": 57183,
+            "total": 837181
+          },
+          "sent": 275856405,
+          "received": 12901666374,
+          "fails": 22,
+          "unavail": 15,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 219947,
+          "downstart": 0,
+          "selected": 1493349011000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "chotot-dangtin": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.77:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 154360,
+          "responses": {
+            "1xx": 0,
+            "2xx": 120961,
+            "3xx": 32795,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 153756
+          },
+          "sent": 348705755,
+          "received": 15121585570,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        },
+        {
+          "id": 1,
+          "server": "10.50.10.78:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 154359,
+          "responses": {
+            "1xx": 0,
+            "2xx": 121563,
+            "3xx": 32278,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 153841
+          },
+          "sent": 348792915,
+          "received": 15043738559,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "ssl-kinhnghiem-chotot": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.199:81",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 399104,
+          "responses": {
+            "1xx": 0,
+            "2xx": 392580,
+            "3xx": 4726,
+            "4xx": 1562,
+            "5xx": 0,
+            "total": 398868
+          },
+          "sent": 372854222,
+          "received": 13500085488,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349010000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "ssl-kinhnghiem-chotot2": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.198:81",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "ssl-www-user": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.33:6969",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 11,
+          "responses": {
+            "1xx": 0,
+            "2xx": 8,
+            "3xx": 3,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 11
+          },
+          "sent": 28422,
+          "received": 558642,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30793,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493267621000
+        },
+        {
+          "id": 1,
+          "server": "10.50.10.34:6969",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 11,
+          "responses": {
+            "1xx": 0,
+            "2xx": 8,
+            "3xx": 3,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 11
+          },
+          "sent": 28254,
+          "received": 745567,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30792,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493267621000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "ssl-www2": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.5:443",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 13780,
+          "responses": {
+            "1xx": 0,
+            "2xx": 1598,
+            "3xx": 8244,
+            "4xx": 3861,
+            "5xx": 0,
+            "total": 13703
+          },
+          "sent": 8536915,
+          "received": 22626426,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493348995000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "ssl-www4": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.100:443",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 44622,
+          "responses": {
+            "1xx": 0,
+            "2xx": 26913,
+            "3xx": 9478,
+            "4xx": 8206,
+            "5xx": 0,
+            "total": 44597
+          },
+          "sent": 92904278,
+          "received": 282192478,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30448,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349010000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "dashboard-chotot": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.15:8080",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 231992,
+          "responses": {
+            "1xx": 0,
+            "2xx": 160187,
+            "3xx": 64679,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 224866
+          },
+          "sent": 566076851,
+          "received": 2475795118,
+          "fails": 53,
+          "unavail": 52,
+          "health_checks": {
+            "checks": 61520,
+            "fails": 17,
+            "unhealthy": 17,
+            "last_passed": true
+          },
+          "downtime": 840455,
+          "downstart": 0,
+          "selected": 1493349011000
+        },
+        {
+          "id": 1,
+          "server": "10.50.10.16:8080",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 1,
+          "requests": 234341,
+          "responses": {
+            "1xx": 0,
+            "2xx": 162112,
+            "3xx": 65672,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 227784
+          },
+          "sent": 572023962,
+          "received": 2502127508,
+          "fails": 18,
+          "unavail": 14,
+          "health_checks": {
+            "checks": 61579,
+            "fails": 6,
+            "unhealthy": 6,
+            "last_passed": true
+          },
+          "downtime": 228995,
+          "downstart": 0,
+          "selected": 1493349011000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "ssa-dashboard": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.15:9000",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 23,
+          "responses": {
+            "1xx": 0,
+            "2xx": 14,
+            "3xx": 9,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 23
+          },
+          "sent": 50009,
+          "received": 91490,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493285621000
+        },
+        {
+          "id": 1,
+          "server": "10.50.10.16:9000",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 22,
+          "responses": {
+            "1xx": 0,
+            "2xx": 14,
+            "3xx": 8,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 22
+          },
+          "sent": 47205,
+          "received": 74408,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493285621000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "ssl-xe": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.67:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 4,
+          "requests": 1446845,
+          "responses": {
+            "1xx": 0,
+            "2xx": 1298357,
+            "3xx": 145922,
+            "4xx": 76,
+            "5xx": 5,
+            "total": 1444360
+          },
+          "sent": 2307069144,
+          "received": 104836997675,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 92487,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        },
+        {
+          "id": 1,
+          "server": "10.50.10.68:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 4,
+          "requests": 1446844,
+          "responses": {
+            "1xx": 0,
+            "2xx": 1297793,
+            "3xx": 146420,
+            "4xx": 65,
+            "5xx": 1,
+            "total": 1444279
+          },
+          "sent": 2307850407,
+          "received": 104958304170,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 92490,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "ssl-xe-bot": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.41:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 126718,
+          "responses": {
+            "1xx": 0,
+            "2xx": 125663,
+            "3xx": 979,
+            "4xx": 0,
+            "5xx": 74,
+            "total": 126716
+          },
+          "sent": 40390763,
+          "received": 10135969462,
+          "fails": 2,
+          "unavail": 2,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 24068,
+          "downstart": 0,
+          "selected": 1493349011000
+        },
+        {
+          "id": 1,
+          "server": "10.50.10.42:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 126774,
+          "responses": {
+            "1xx": 0,
+            "2xx": 125695,
+            "3xx": 1011,
+            "4xx": 0,
+            "5xx": 68,
+            "total": 126774
+          },
+          "sent": 40439716,
+          "received": 10158592468,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "ssl-xe-api": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.67:7001",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 967307,
+          "responses": {
+            "1xx": 0,
+            "2xx": 290260,
+            "3xx": 676492,
+            "4xx": 0,
+            "5xx": 31,
+            "total": 966783
+          },
+          "sent": 2005546483,
+          "received": 7672645419,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        },
+        {
+          "id": 1,
+          "server": "10.50.10.68:7001",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 965209,
+          "responses": {
+            "1xx": 0,
+            "2xx": 289271,
+            "3xx": 675356,
+            "4xx": 0,
+            "5xx": 34,
+            "total": 964661
+          },
+          "sent": 2001190259,
+          "received": 7632023380,
+          "fails": 11,
+          "unavail": 11,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 119179,
+          "downstart": 0,
+          "selected": 1493349011000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "ssl-xe2": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.37:8082",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 922,
+          "responses": {
+            "1xx": 0,
+            "2xx": 511,
+            "3xx": 404,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 915
+          },
+          "sent": 2574887,
+          "received": 12450458,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30821,
+            "fails": 1,
+            "unhealthy": 1,
+            "last_passed": true
+          },
+          "downtime": 5006,
+          "downstart": 0,
+          "selected": 1493348683000
+        },
+        {
+          "id": 1,
+          "server": "10.50.10.38:8082",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 922,
+          "responses": {
+            "1xx": 0,
+            "2xx": 547,
+            "3xx": 369,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 916
+          },
+          "sent": 2581232,
+          "received": 13272812,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30825,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493348683000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "ssl-xe3": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.37:8083",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 66,
+          "responses": {
+            "1xx": 0,
+            "2xx": 34,
+            "3xx": 32,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 66
+          },
+          "sent": 103325,
+          "received": 324420,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30823,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493348668000
+        },
+        {
+          "id": 1,
+          "server": "10.50.10.38:8083",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 65,
+          "responses": {
+            "1xx": 0,
+            "2xx": 35,
+            "3xx": 30,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 65
+          },
+          "sent": 104470,
+          "received": 332269,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30826,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493348415000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "ssl-xe4": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.37:8081",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 2006,
+          "responses": {
+            "1xx": 0,
+            "2xx": 1950,
+            "3xx": 31,
+            "4xx": 14,
+            "5xx": 0,
+            "total": 1995
+          },
+          "sent": 2567840,
+          "received": 27087603,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 61645,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493348897000
+        },
+        {
+          "id": 1,
+          "server": "10.50.10.38:8081",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 2005,
+          "responses": {
+            "1xx": 0,
+            "2xx": 1946,
+            "3xx": 37,
+            "4xx": 17,
+            "5xx": 0,
+            "total": 2000
+          },
+          "sent": 2555766,
+          "received": 27279410,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 61650,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493348883000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "xe-for-apple": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.67:8001",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 50016,
+          "responses": {
+            "1xx": 0,
+            "2xx": 50016,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 50016
+          },
+          "sent": 14695359,
+          "received": 20806656,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30489,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "sitemap-shopxe": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.35:8082",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 9,
+          "responses": {
+            "1xx": 0,
+            "2xx": 9,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 9
+          },
+          "sent": 8224,
+          "received": 943447,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493320619000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "truyenthong-chotot-com": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.157:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 4144,
+          "responses": {
+            "1xx": 0,
+            "2xx": 1319,
+            "3xx": 37,
+            "4xx": 15,
+            "5xx": 1,
+            "total": 1372
+          },
+          "sent": 1352094,
+          "received": 39723061,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30267,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493348960000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "apitest-chotot": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.134:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30825,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "avro-docs-chotot": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.112:8124",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30827,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "cgraylog": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.189:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 28458,
+          "responses": {
+            "1xx": 0,
+            "2xx": 27668,
+            "3xx": 678,
+            "4xx": 39,
+            "5xx": 0,
+            "total": 28385
+          },
+          "sent": 26525602,
+          "received": 39245143,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30830,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349010000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "chuongtrinh-chotot": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.156:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "cinflux": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.189:8083",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30827,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "docker35-chotot": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.35:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 886,
+          "responses": {
+            "1xx": 9,
+            "2xx": 875,
+            "3xx": 2,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 886
+          },
+          "sent": 876849,
+          "received": 3124132,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30843,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493294480000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "es": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.234:5601",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 1952,
+          "responses": {
+            "1xx": 0,
+            "2xx": 1894,
+            "3xx": 53,
+            "4xx": 3,
+            "5xx": 0,
+            "total": 1950
+          },
+          "sent": 1107423,
+          "received": 12614927,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30805,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493319012000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "esearch": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.25:9200",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 10918,
+          "responses": {
+            "1xx": 0,
+            "2xx": 10916,
+            "3xx": 0,
+            "4xx": 2,
+            "5xx": 0,
+            "total": 10918
+          },
+          "sent": 7567119,
+          "received": 41502667,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30829,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493313902000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "k8s-dashboard": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.205:31012",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 191,
+          "responses": {
+            "1xx": 0,
+            "2xx": 173,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 173
+          },
+          "sent": 169096,
+          "received": 1682608,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 61584,
+            "fails": 7,
+            "unhealthy": 6,
+            "last_passed": true
+          },
+          "downtime": 32942,
+          "downstart": 0,
+          "selected": 1493293998000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "kafka": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.54:9000",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 23,
+          "responses": {
+            "1xx": 0,
+            "2xx": 19,
+            "3xx": 4,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 23
+          },
+          "sent": 20706,
+          "received": 280595,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30828,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493201663000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "konga": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.203:30035",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 1018,
+          "responses": {
+            "1xx": 0,
+            "2xx": 1002,
+            "3xx": 8,
+            "4xx": 5,
+            "5xx": 0,
+            "total": 1015
+          },
+          "sent": 1106829,
+          "received": 9392840,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 61409,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493305012000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "loghub": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.3:9000",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 1129,
+          "responses": {
+            "1xx": 0,
+            "2xx": 1129,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 1129
+          },
+          "sent": 681647,
+          "received": 28145809,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30178,
+            "fails": 1,
+            "unhealthy": 1,
+            "last_passed": true
+          },
+          "downtime": 18776,
+          "downstart": 0,
+          "selected": 1493319097000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "monster": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.205:31462",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 1239,
+          "responses": {
+            "1xx": 0,
+            "2xx": 1210,
+            "3xx": 4,
+            "4xx": 1,
+            "5xx": 0,
+            "total": 1215
+          },
+          "sent": 964111,
+          "received": 3056252,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 61657,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493304647000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "chotot-elk-nps": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.19:5601",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30823,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "chotot-pusher": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.179:8080",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 3,
+          "responses": {
+            "1xx": 0,
+            "2xx": 2,
+            "3xx": 0,
+            "4xx": 1,
+            "5xx": 0,
+            "total": 3
+          },
+          "sent": 636,
+          "received": 815,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30838,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493307881000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "rabbitmq-chotot": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.144:15672",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 55536,
+          "responses": {
+            "1xx": 0,
+            "2xx": 54226,
+            "3xx": 22,
+            "4xx": 1287,
+            "5xx": 0,
+            "total": 55535
+          },
+          "sent": 16735333,
+          "received": 2091218103,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30823,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349010000
+        },
+        {
+          "id": 1,
+          "server": "10.50.1.145:15672",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 55535,
+          "responses": {
+            "1xx": 0,
+            "2xx": 54238,
+            "3xx": 12,
+            "4xx": 1285,
+            "5xx": 0,
+            "total": 55535
+          },
+          "sent": 16727320,
+          "received": 2067360788,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30824,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349010000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "schema-doc": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.140:8124",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30820,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "schema": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.140:8081",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 41,
+          "responses": {
+            "1xx": 0,
+            "2xx": 41,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 41
+          },
+          "sent": 10242,
+          "received": 41175,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30838,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493346595000
+        },
+        {
+          "id": 1,
+          "server": "10.50.10.141:8081",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 41,
+          "responses": {
+            "1xx": 0,
+            "2xx": 41,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 41
+          },
+          "sent": 11618,
+          "received": 21963,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30837,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493346595000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "sendy-chotot": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.167:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 1,
+          "requests": 63321,
+          "responses": {
+            "1xx": 0,
+            "2xx": 40451,
+            "3xx": 22334,
+            "4xx": 473,
+            "5xx": 0,
+            "total": 63258
+          },
+          "sent": 30893958,
+          "received": 221364854,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30556,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "skynet-chotot": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.30:4440",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30837,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "smsverify1": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.72:5601",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 1439,
+          "responses": {
+            "1xx": 0,
+            "2xx": 1260,
+            "3xx": 149,
+            "4xx": 26,
+            "5xx": 0,
+            "total": 1435
+          },
+          "sent": 1635638,
+          "received": 13106018,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30821,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493348875000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "api-chotot": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.133:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 2,
+          "requests": 4244388,
+          "responses": {
+            "1xx": 0,
+            "2xx": 4238955,
+            "3xx": 0,
+            "4xx": 5,
+            "5xx": 3450,
+            "total": 4242410
+          },
+          "sent": 1291679190,
+          "received": 28301028553,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30830,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        },
+        {
+          "id": 1,
+          "server": "10.50.1.132:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 4232696,
+          "responses": {
+            "1xx": 0,
+            "2xx": 4231377,
+            "3xx": 0,
+            "4xx": 4,
+            "5xx": 333,
+            "total": 4231714
+          },
+          "sent": 1305296184,
+          "received": 28260592435,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30829,
+            "fails": 3,
+            "unhealthy": 2,
+            "last_passed": true
+          },
+          "downtime": 15594,
+          "downstart": 0,
+          "selected": 1493349011000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "capi-chotot": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.10.213:5003",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 186294,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 186190,
+            "5xx": 0,
+            "total": 186190
+          },
+          "sent": 112494142,
+          "received": 72604316,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30829,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        },
+        {
+          "id": 1,
+          "server": "10.50.10.213:5004",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 186294,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 186200,
+            "5xx": 0,
+            "total": 186200
+          },
+          "sent": 112507771,
+          "received": 72606738,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30827,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        },
+        {
+          "id": 2,
+          "server": "10.50.10.213:5005",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 186294,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 186220,
+            "5xx": 0,
+            "total": 186220
+          },
+          "sent": 112540237,
+          "received": 72615738,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30829,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        },
+        {
+          "id": 3,
+          "server": "10.50.10.213:5006",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 186294,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 186219,
+            "5xx": 0,
+            "total": 186219
+          },
+          "sent": 112487514,
+          "received": 72616235,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30829,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        },
+        {
+          "id": 4,
+          "server": "10.50.10.214:5003",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 186293,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 186204,
+            "5xx": 0,
+            "total": 186204
+          },
+          "sent": 112507332,
+          "received": 72607803,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30827,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        },
+        {
+          "id": 5,
+          "server": "10.50.10.214:5004",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 186293,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 186209,
+            "5xx": 0,
+            "total": 186209
+          },
+          "sent": 112513289,
+          "received": 72611656,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30828,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        },
+        {
+          "id": 6,
+          "server": "10.50.10.214:5005",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 186293,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 186212,
+            "5xx": 0,
+            "total": 186212
+          },
+          "sent": 112515470,
+          "received": 72611787,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30827,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        },
+        {
+          "id": 7,
+          "server": "10.50.10.214:5006",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 186293,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 186195,
+            "5xx": 0,
+            "total": 186195
+          },
+          "sent": 112531806,
+          "received": 72606473,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30828,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "notify-admin-chotot": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.124:8718",
+          "backup": false,
+          "weight": 1,
+          "state": "unhealthy",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30851,
+            "fails": 30851,
+            "unhealthy": 1,
+            "last_passed": false
+          },
+          "downtime": 154316450,
+          "downstart": 1493194695463,
+          "selected": 0
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "nps-api": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.19:8000",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 1318131,
+          "responses": {
+            "1xx": 0,
+            "2xx": 1318072,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 1318072
+          },
+          "sent": 296364743,
+          "received": 677489008,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30830,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "prometheus": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.189:9090",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 72,
+          "responses": {
+            "1xx": 0,
+            "2xx": 67,
+            "3xx": 5,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 72
+          },
+          "sent": 63795,
+          "received": 1767564,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 61679,
+            "fails": 86,
+            "unhealthy": 8,
+            "last_passed": true
+          },
+          "downtime": 216070,
+          "downstart": 0,
+          "selected": 1493306684000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "ssl-chotot-pusher-vn": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.179:8080",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 1209,
+          "requests": 1258111,
+          "responses": {
+            "1xx": 238519,
+            "2xx": 981337,
+            "3xx": 0,
+            "4xx": 1960,
+            "5xx": 19187,
+            "total": 1241003
+          },
+          "sent": 947137121,
+          "received": 638702639,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 61676,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493349011000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "ssl-tracking-chotot-vn": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.32:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 29063961,
+          "responses": {
+            "1xx": 0,
+            "2xx": 29061897,
+            "3xx": 2,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 29061899
+          },
+          "sent": 166595005820,
+          "received": 6842967605,
+          "fails": 195,
+          "unavail": 43,
+          "health_checks": {
+            "checks": 30844,
+            "fails": 10,
+            "unhealthy": 10,
+            "last_passed": true
+          },
+          "downtime": 455111,
+          "downstart": 0,
+          "selected": 1493349011000
+        },
+        {
+          "id": 1,
+          "server": "10.50.1.36:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 1,
+          "requests": 29063383,
+          "responses": {
+            "1xx": 0,
+            "2xx": 29061318,
+            "3xx": 3,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 29061321
+          },
+          "sent": 166556364168,
+          "received": 6842959839,
+          "fails": 189,
+          "unavail": 43,
+          "health_checks": {
+            "checks": 30844,
+            "fails": 8,
+            "unhealthy": 8,
+            "last_passed": true
+          },
+          "downtime": 455765,
+          "downstart": 0,
+          "selected": 1493349011000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "ssl-upload-chotot-vn": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.241:8000",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30836,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "tracking-chotot": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.32:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 3,
+          "responses": {
+            "1xx": 0,
+            "2xx": 3,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 3
+          },
+          "sent": 6757,
+          "received": 1945,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30844,
+            "fails": 10,
+            "unhealthy": 10,
+            "last_passed": true
+          },
+          "downtime": 50028,
+          "downstart": 0,
+          "selected": 1493306654000
+        },
+        {
+          "id": 1,
+          "server": "10.50.1.36:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 3,
+          "responses": {
+            "1xx": 0,
+            "2xx": 2,
+            "3xx": 0,
+            "4xx": 1,
+            "5xx": 0,
+            "total": 3
+          },
+          "sent": 811,
+          "received": 2041,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30844,
+            "fails": 6,
+            "unhealthy": 6,
+            "last_passed": true
+          },
+          "downtime": 30027,
+          "downstart": 0,
+          "selected": 1493341965000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "truyenthong-chotot": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.156:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 0,
+            "fails": 0,
+            "unhealthy": 0
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "upload-chotot": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.241:8000",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 1050,
+          "responses": {
+            "1xx": 0,
+            "2xx": 1047,
+            "3xx": 0,
+            "4xx": 2,
+            "5xx": 0,
+            "total": 1049
+          },
+          "sent": 519092319,
+          "received": 252039,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30836,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493348999000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "webmin": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.167:10000",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 0,
+          "responses": {
+            "1xx": 0,
+            "2xx": 0,
+            "3xx": 0,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 0
+          },
+          "sent": 0,
+          "received": 0,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 88799,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 0
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    },
+    "zabbix": {
+      "peers": [
+        {
+          "id": 0,
+          "server": "10.50.1.200:80",
+          "backup": false,
+          "weight": 1,
+          "state": "up",
+          "active": 0,
+          "requests": 24173,
+          "responses": {
+            "1xx": 0,
+            "2xx": 24143,
+            "3xx": 25,
+            "4xx": 0,
+            "5xx": 0,
+            "total": 24168
+          },
+          "sent": 35730250,
+          "received": 517195458,
+          "fails": 0,
+          "unavail": 0,
+          "health_checks": {
+            "checks": 30733,
+            "fails": 0,
+            "unhealthy": 0,
+            "last_passed": true
+          },
+          "downtime": 0,
+          "downstart": 0,
+          "selected": 1493348999000
+        }
+      ],
+      "keepalive": 0,
+      "zombies": 0
+    }
+  },
+  "caches": {}
+}
