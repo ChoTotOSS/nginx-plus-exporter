@@ -168,15 +168,15 @@ func (e *Exporter) Describe(ch chan<- *prometheus.Desc) {
 }
 
 func (e *Exporter) Collect(ch chan<- prometheus.Metric) {
-	data, err := ioutil.ReadFile("./sample.json")
-	// body, err := fetchHTTP(e.URI, 2*time.Second)()
-	// if err != nil {
-	// 	log.Println("fetchHTTP failed", err)
-	// 	return
-	// }
-	// defer body.Close()
-	//
-	// data, err := ioutil.ReadAll(body)
+	// data, err := ioutil.ReadFile("./sample.json")
+	body, err := fetchHTTP(e.URI, 2*time.Second)()
+	if err != nil {
+		log.Println("fetchHTTP failed", err)
+		return
+	}
+	defer body.Close()
+
+	data, err := ioutil.ReadAll(body)
 	if err != nil {
 		log.Println("ioutil.ReadAll failed", err)
 		return
