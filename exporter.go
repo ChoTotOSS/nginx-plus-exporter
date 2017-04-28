@@ -195,6 +195,10 @@ func (e *Exporter) Collect(ch chan<- prometheus.Metric) {
 	ch <- prometheus.MustNewConstMetric(e.connectionsMetrics["active"], prometheus.GaugeValue, float64(nginxStats.Connections.Active))
 	ch <- prometheus.MustNewConstMetric(e.connectionsMetrics["idle"], prometheus.GaugeValue, float64(nginxStats.Connections.Idle))
 
+	//requests
+	ch <- prometheus.MustNewConstMetric(e.requestsMetrics["total"], prometheus.CounterValue, float64(nginxStats.Requests.Total))
+	ch <- prometheus.MustNewConstMetric(e.requestsMetrics["current"], prometheus.GaugeValue, float64(nginxStats.Requests.Current))
+
 	// ssl
 	ch <- prometheus.MustNewConstMetric(e.sslMetrics["handshakes"], prometheus.CounterValue, float64(nginxStats.SSLs.Handshakes))
 	ch <- prometheus.MustNewConstMetric(e.sslMetrics["handshakes_failed"], prometheus.CounterValue, float64(nginxStats.SSLs.HandshakesFailed))
