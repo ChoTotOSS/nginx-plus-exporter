@@ -33,8 +33,8 @@ type NginxStats struct {
 		Current int   `json:"current"`
 	} `json:"requests"`
 
-	ServerZones map[string]Server `json:"server_zones"`
-	//UpstreamZones map[string][]Upstream `json:"upstreams"`
+	ServerZones   map[string]Server   `json:"server_zones"`
+	UpstreamZones map[string]Upstream `json:"upstreams"`
 }
 
 type Server struct {
@@ -137,11 +137,14 @@ func NewExporter(uri string) *Exporter {
 			"sent":       newCustomMetric("server", "sent", "nginx connections", []string{"server"}),
 			"responses":  newCustomMetric("server", "responses", "responses counter", []string{"server", "code"}),
 		},
-		// upstreamMetrics: map[string]*prometheus.Desc{
-		// 	"requests": newCustomMetric("upstream", "requests", "requests counter", []string{"upstream", "code"}),
-		// 	"bytes":    newCustomMetric("upstream", "bytes", "request/response bytes", []string{"upstream", "direction"}),
-		// 	"response": newCustomMetric("upstream", "response", "request response time", []string{"upstream", "backend"}),
-		// },
+		upstreamMetrics: map[string]*prometheus.Desc{
+			"requests":  newCustomMetric("upstream", "requests", "requests counter", []string{"server", "upstream"}),
+			"fails":     newCustomMetric("upstream", "fails", "fails counter", []string{"server", "upstream"}),
+			"received":  newCustomMetric("upstream", "received", "receive counter", []string{"server", "upstream"}),
+			"sent":      newCustomMetric("upstream", "sent", "sent counter", []string{"server", "upstream"}),
+			"downtime":  newCustomMetric("upstream", "downtime", "downtime counter", []string{"server", "upstream"}),
+			"responses": newCustomMetric("upstream", "responses", "response counter", []string{"server", "upstream", "code"}),
+		},
 	}
 }
 
@@ -158,22 +161,22 @@ func (e *Exporter) Describe(ch chan<- *prometheus.Desc) {
 	for _, m := range e.requestsMetrics {
 		ch <- m
 	}
-	// for _, m := range e.upstreamMetrics {
-	// 	ch <- m
-	// }
+	for _, m := range e.upstreamMetrics {
+		ch <- m
+	}
 
 }
 
 func (e *Exporter) Collect(ch chan<- prometheus.Metric) {
-	//data, err := ioutil.ReadFile("./sample.json")
-	body, err := fetchHTTP(e.URI, 2*time.Second)()
-	if err != nil {
-		log.Println("fetchHTTP failed", err)
-		return
-	}
-	defer body.Close()
-
-	data, err := ioutil.ReadAll(body)
+	data, err := ioutil.ReadFile("./sample.json")
+	// body, err := fetchHTTP(e.URI, 2*time.Second)()
+	// if err != nil {
+	// 	log.Println("fetchHTTP failed", err)
+	// 	return
+	// }
+	// defer body.Close()
+	//
+	// data, err := ioutil.ReadAll(body)
 	if err != nil {
 		log.Println("ioutil.ReadAll failed", err)
 		return
@@ -213,21 +216,21 @@ func (e *Exporter) Collect(ch chan<- prometheus.Metric) {
 	}
 
 	// UpstreamZones
-	// for name, upstreamList := range nginxStats.UpstreamZones {
-	// 	var total, one, two, three, four, five, inbytes, outbytes float64
-	// 	for _, s := range upstreamList {
-	// 		ch <- prometheus.MustNewConstMetric(e.upstreamMetrics["requests"], prometheus.CounterValue, total, name, "total")
-	// 		ch <- prometheus.MustNewConstMetric(e.upstreamMetrics["requests"], prometheus.CounterValue, one, name, "1xx")
-	// 		ch <- prometheus.MustNewConstMetric(e.upstreamMetrics["requests"], prometheus.CounterValue, two, name, "2xx")
-	// 		ch <- prometheus.MustNewConstMetric(e.upstreamMetrics["requests"], prometheus.CounterValue, three, name, "3xx")
-	// 		ch <- prometheus.MustNewConstMetric(e.upstreamMetrics["requests"], prometheus.CounterValue, four, name, "4xx")
-	// 		ch <- prometheus.MustNewConstMetric(e.upstreamMetrics["requests"], prometheus.CounterValue, five, name, "5xx")
-	//
-	// 		ch <- prometheus.MustNewConstMetric(e.upstreamMetrics["bytes"], prometheus.CounterValue, inbytes, name, "in")
-	// 		ch <- prometheus.MustNewConstMetric(e.upstreamMetrics["bytes"], prometheus.CounterValue, outbytes, name, "out")
-	// 	}
-	//
-	// }
+	for host, zone := range nginxStats.UpstreamZones {
+		for _, p := range zone.Peers {
+			upstream := p.Server
+			ch <- prometheus.MustNewConstMetric(e.upstreamMetrics["requests"], prometheus.CounterValue, float64(p.Requests), host, upstream)
+			ch <- prometheus.MustNewConstMetric(e.upstreamMetrics["sent"], prometheus.CounterValue, float64(p.Sent), host, upstream)
+			ch <- prometheus.MustNewConstMetric(e.upstreamMetrics["received"], prometheus.CounterValue, float64(p.Received), host, upstream)
+			ch <- prometheus.MustNewConstMetric(e.upstreamMetrics["downtime"], prometheus.CounterValue, float64(p.Downtime), host, upstream)
+			ch <- prometheus.MustNewConstMetric(e.upstreamMetrics["fails"], prometheus.CounterValue, float64(p.Fails), host, upstream)
+			ch <- prometheus.MustNewConstMetric(e.upstreamMetrics["responses"], prometheus.CounterValue, float64(p.Responses.Responses1xx), host, upstream, "1xx")
+			ch <- prometheus.MustNewConstMetric(e.upstreamMetrics["responses"], prometheus.CounterValue, float64(p.Responses.Responses2xx), host, upstream, "2xx")
+			ch <- prometheus.MustNewConstMetric(e.upstreamMetrics["responses"], prometheus.CounterValue, float64(p.Responses.Responses3xx), host, upstream, "3xx")
+			ch <- prometheus.MustNewConstMetric(e.upstreamMetrics["responses"], prometheus.CounterValue, float64(p.Responses.Responses4xx), host, upstream, "4xx")
+			ch <- prometheus.MustNewConstMetric(e.upstreamMetrics["responses"], prometheus.CounterValue, float64(p.Responses.Responses5xx), host, upstream, "5xx")
+		}
+	}
 
 }
 
